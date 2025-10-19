@@ -79,3 +79,17 @@ i{
    display: flex;
     cursor: pointer;
 }
+
+.check{
+    display: none;
+    visibility: hidden;
+    -webkit-appearanc:none;
+}
+
+.line{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    z-index: 1;
+    
+}
