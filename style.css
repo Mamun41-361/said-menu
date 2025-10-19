@@ -1,0 +1,81 @@
+
+**::after * ::before{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+:root{
+
+    --headerscol:rgb(154, 116, 116);
+    --saidcol:black;
+    
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.headers{
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: var(--headerscol);
+    display: flex;
+    flex-direction: row;
+}
+.headFast{
+    width: 50%;
+    height: 100%;
+   display: flex;
+   align-items: center;
+
+}
+h1{
+     font-size: 30px;
+    margin: 0px;
+    align-items: center;
+ 
+
+}
+strong{
+    color: azure;
+}
+.search{
+   
+   display:flex ;
+align-items: center;
+    justify-content: center;
+}
+.searchstyle{
+    width: 290px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+input{
+    height: 30px;
+    width: 260px;
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 0px 0px  10px;
+    padding: 4px;
+}
+ 
+
+i{
+    margin-left: 5px;
+    padding: 5px;
+   display: flex;
+    cursor: pointer;
+}
