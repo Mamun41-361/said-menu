@@ -131,7 +131,8 @@ border-radius: 2px;
     left: 2px;
     top: 14px;
     width: 25px;
-    transform: rotate(45deg);
+     transform: rotate(45deg);
+     background-color: rgb(0, 0, 0);
 
 }
 .check:checked ~ .tag .middle_line{
@@ -146,5 +147,51 @@ border-radius: 2px;
     top: 14px;
     width: 25px;
     transform: rotate(-45deg);
+    background-color: rgb(156, 8, 8);
 
+}
+
+
+
+
+
+/*----------------------------said menu_______________________________*/
+
+
+.leftside{
+    height: 500px;
+    width: 200px;
+    margin: 0;
+    background-color: black;
+    box-shadow: 1px 1px 0px 1px;
+    border-radius: 0px 0px 10px 0px ;
+    transform: translate(-220px);
+}
+.leftside ul{
+  margin: 0;
+  padding: 0;
+  display: block;
+
+}
+.leftside ul li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.leftside ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    color:azure;
+    margin-top: 20px;
+    padding: 5px;
+
+}
+
+.check:checked ~ .leftside{
+    transform: translate(0);
+    transition: .5s ease;
 }
