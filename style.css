@@ -87,7 +87,7 @@ i{
     -webkit-appearanc:none;
 }
 
-.tag{
+#tag{
     position: absolute;
     height: 30px;
     width: 30px;
@@ -97,7 +97,7 @@ i{
 box-shadow: 0px 1px 1.5px 1.5px rgb(255, 255, 255);
 border-radius: 2px;
 }
-.tag .common{
+#tag .common{
     position: absolute;
     height: 2px;
     width: 20px;
@@ -107,19 +107,19 @@ border-radius: 2px;
     transition: 0.5s ease;
 }
 
-.tag .top_line{
+#tag .top_line{
 
     top: 30%;
     left: 10%;
     transition: translate(-50%,-50%);
 }
-.tag .middle_line{
+#tag .middle_line{
     top: 50%;
     left: 10%;
      transition: translate(-50%,-50%);
 }
 
-.tag .bottom_line{
+#tag .bottom_line{
 
     top: 70%;
     left: 10%;
@@ -127,7 +127,7 @@ border-radius: 2px;
     transition: translate(-50%, -50%);
 
 }
-.check:checked ~ .tag .top_line{
+.check:checked ~ #tag .top_line{
     left: 2px;
     top: 14px;
     width: 25px;
@@ -135,14 +135,14 @@ border-radius: 2px;
      background-color: rgb(0, 0, 0);
 
 }
-.check:checked ~ .tag .middle_line{
+.check:checked ~ #tag .middle_line{
 
     opacity: 0;
     transform: translate(20px);
     transition: .0s ease;
 
 }
-.check:checked ~ .tag .bottom_line{
+.check:checked ~ #tag .bottom_line{
     left: 2px;
     top: 14px;
     width: 25px;
