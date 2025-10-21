@@ -166,6 +166,8 @@ border-radius: 2px;
     box-shadow: 1px 1px 0px 1px;
     border-radius: 0px 0px 10px 0px ;
     transform: translate(-220px);
+    transition: .5s ease;
+    position: fixed;
 }
 .leftside ul{
   margin: 0;
@@ -193,5 +195,5 @@ border-radius: 2px;
 
 .check:checked ~ .leftside{
     transform: translate(0);
-    transition: .5s ease;
+    
 }
