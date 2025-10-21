@@ -87,7 +87,7 @@ i{
     -webkit-appearanc:none;
 }
 
-#tag{
+.tag{
     position: absolute;
     height: 30px;
     width: 30px;
@@ -97,7 +97,7 @@ i{
 box-shadow: 0px 1px 1.5px 1.5px rgb(255, 255, 255);
 border-radius: 2px;
 }
-#tag .common{
+.tag .common{
     position: absolute;
     height: 2px;
     width: 20px;
@@ -107,19 +107,19 @@ border-radius: 2px;
     transition: 0.5s ease;
 }
 
-#tag .top_line{
+.tag .top_line{
 
     top: 30%;
     left: 10%;
     transition: translate(-50%,-50%);
 }
-#tag .middle_line{
+.tag .middle_line{
     top: 50%;
     left: 10%;
      transition: translate(-50%,-50%);
 }
 
-#tag .bottom_line{
+.tag .bottom_line{
 
     top: 70%;
     left: 10%;
