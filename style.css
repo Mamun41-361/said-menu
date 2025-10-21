@@ -7,11 +7,14 @@
 
 }
 :root{
-
+      --bodybackground:white;
     --headerscol:rgb(47, 96, 129);
     --saidcol:black;
     --checkbottomcol: rgb(156, 8, 8);
     --checktopcol: rgb(0, 0, 0);
+    --stronglogoname:white;
+    --cearchBackground:white;
+    --menuicon:rgb(138, 70, 121);
     
 }
 
@@ -20,6 +23,7 @@ body{
     width: 100%;
     margin: 0;
     padding: 0;
+    background-color: var(--bodybackground);
   
 }
 
@@ -48,7 +52,7 @@ h1{
 
 }
 strong{
-    color: azure;
+    color:var(--stronglogoname);
 }
 .search{
    
@@ -58,15 +62,15 @@ align-items: center;
 }
 .searchstyle{
     width: 290px;
-    height: 30px;
+    height: 31px;
     display: flex;
     align-items: center;
-    background-color: aliceblue;
+    background-color:var(--cearchBackground);
     border-radius: 10px 10px 10px 10px;
     
 }
 input{
-    height: 30px;
+    height: 31.5px;
     width: 260px;
     margin-left: 0px;
     display: flex;
@@ -75,13 +79,17 @@ input{
     border-radius: 10px 0px 0px  10px;
     padding: 4px;
 }
+input:hover ~ i{
+    color: rgb(161, 20, 20);
+}
  
 
-i{
+ i{
     margin-left: 5px;
     padding: 5px;
    display: flex;
     cursor: pointer;
+    
 }
 
 .check{
@@ -104,7 +112,7 @@ border-radius: 2px;
     position: absolute;
     height: 2px;
     width: 20px;
-    background-color: rgb(134, 72, 249);
+    background-color: var(--menuicon);
     border-radius: 50px;
 
     transition: 0.5s ease;
