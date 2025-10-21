@@ -127,7 +127,7 @@ border-radius: 2px;
     transition: translate(-50%, -50%);
 
 }
-.check:checked ~ #tag .top_line{
+.check:checked ~ .tag .top_line{
     left: 2px;
     top: 14px;
     width: 25px;
@@ -135,14 +135,14 @@ border-radius: 2px;
      background-color: rgb(0, 0, 0);
 
 }
-.check:checked ~ #tag .middle_line{
+.check:checked ~ .tag .middle_line{
 
     opacity: 0;
     transform: translate(20px);
     transition: .0s ease;
 
 }
-.check:checked ~ #tag .bottom_line{
+.check:checked ~ .tag .bottom_line{
     left: 2px;
     top: 14px;
     width: 25px;
